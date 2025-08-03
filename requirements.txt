@@ -1,0 +1,7 @@
+jupyter
+matplotlib
+ninja
+numpy
+scipy
+trimesh
+taichi==1.2.2
