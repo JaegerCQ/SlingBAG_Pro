@@ -32,7 +32,7 @@ cd SlingBAG_Pro
 ```
 
 ```bash
-conda create -n SlingBAG_Pro python=3.10 -y
+conda create -n SlingBAG_Pro python=3.10.13 -y
 conda activate SlingBAG_Pro
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
