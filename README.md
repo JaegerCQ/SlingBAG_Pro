@@ -14,6 +14,11 @@ _The overall framework of SlingBAG Pro iterative reconstruction algorithm for 3D
 ![image](https://github.com/JaegerCQ/SlingBAG_Pro/blob/main/fig/hand_vessel_SlingBAG_Pro.png)   
 _Comparison of 3D photoacoustic reconstruction results under sparse irregular arrays. (a) Top-view maximum amplitude projection (MAP), front-view MAP, and the cross-sectional slice along the green dashed line in the top-view MAP of the acoustic source. (b) Top-view MAP, front-view MAP, and corresponding cross-sectional slice along the green dashed line in the top-view MAP of the UBP reconstruction results with 505, 1009, 2006 sensors, respectively. (c) Top-view MAP, front-view MAP, and corresponding cross-sectional slice along the green dashed line in the top-view MAP of the SlingBAG Pro reconstruction results with 505, 1009, 2006 sensors, respectively. (d) Imaging setup. (e) Point cloud iteration process of SlingBAG Pro reconstruction with 2006 sensors. (Scale bar: 10 mm.)_
 
+## Reconstruction speed comparison: SlingBAG Pro versus SlingBAG   
+
+![image](https://github.com/JaegerCQ/SlingBAG_Pro/blob/main/fig/speed_analyse.png)   
+_Comparison of decay for both the ball numbers and the loss in coarse reconstruction stage between SlingBAG Pro and SlingBAG. (a-c) Decay of the ball numbers in coarse reconstruction stage for 505, 1009, 2006 sensor array, respectively. (d-f) Loss decay in coarse reconstruction stage for 505, 1009, 2006 sensor array, respectively._
+
 ## Guidance
 
 The example in the provided codes is for the reconstruction of simulated hand vessel with 2006 elements irregular array (detailed in the article), if you want to reconstrut your own data, please replace the sensor location and sensor data files in the `train_phantom_finger_coarse_Hierarchical_2006.ipynb`, `train_phantom_finger_fine_Hierarchical_2006.ipynb` and `train_phantom_finger_fine_softplus_2006.ipynb`. Sorry for all the inconvenience, we promise that the SlingBAG will soon be much more user-friendly, and we hope this guidance may help you. Good luck my friends!  
